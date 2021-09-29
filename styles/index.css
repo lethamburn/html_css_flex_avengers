@@ -1,3 +1,5 @@
+/* GENERAL STYLES */
+
 * {
   margin: 0;
   padding: 0;
@@ -29,13 +31,14 @@ body {
 }
 
 .navbar__item img {
-  height: 40px;
+  height: 30px;
 }
 
 .navbar__link {
   text-decoration: none;
   color: #fff;
 }
+
 .navbar__link:hover {
   color: red;
 }
@@ -59,10 +62,11 @@ body {
   text-align: center;
   margin: 40px;
   flex-direction: column;
+  align-items: center;
 }
 
 .hero__intro {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -72,14 +76,15 @@ body {
 }
 
 .hero__caption {
-  font-size: 16px;
+  font-size: 23px;
   font-weight: lighter;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .hero img {
-  width: 400px;
+  width: 60%;
   border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .hero a {
@@ -117,6 +122,14 @@ body {
   object-fit: contain;
 }
 
+.characters__title{
+  background: rgba(0, 0, 0, 0.692);
+  border-radius: 4px;
+  font-size: 22 px;
+  padding: 3px;
+  color: rgb(255, 255, 255);
+}
+
 .characters__caption {
   font-size: 16px;
   font-weight: lighter;
@@ -132,10 +145,12 @@ footer {
   width: 100%;
   background-color: black;
   color: white;
+  padding: 4px;
 }
 
 footer p {
-  margin: 10px;
+  margin: 14px;
+  font-size: 18px;
 }
 
 footer strong {
