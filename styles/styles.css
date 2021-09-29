@@ -1,5 +1,4 @@
 /* GENERAL STYLES */
-
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
 
 * {
@@ -8,7 +7,8 @@
 }
 
 body {
-  font-family: 'Rubik';
+  font-family: "Rubik";
+  background: whitesmoke;
 }
 
 /* NAVBAR */
@@ -28,8 +28,7 @@ body {
 
 .navbar__item {
   font-size: 20px;
-  text-align: center;
-  padding: 15px;
+  padding: 10px;
   text-transform: uppercase;
 }
 
@@ -50,18 +49,14 @@ body {
 
 .hero {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.hero {
-  background: whitesmoke;
+  border-bottom: 4px solid black;
 }
 
 .hero__container {
   display: flex;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   text-align: center;
   margin: 40px;
   flex-direction: column;
@@ -84,6 +79,10 @@ body {
   margin-bottom: 30px;
 }
 
+.hero__caption strong {
+  color: red;
+}
+
 .hero img {
   width: 60%;
   border-radius: 8px;
@@ -104,26 +103,24 @@ body {
 }
 
 .characters__item {
-  border-radius: 8px;
   margin: 14px;
   text-align: center;
   height: 300px;
   width: 180px;
-  object-fit: cover;
   padding: 4px;
 }
 
 .characters__item img {
   margin: 10px;
-  width: 80%;
-  height: 80%;
+  height: 70%;
+  width: 70%;
   object-fit: contain;
 }
 
 .characters__title {
-  background: rgb(0, 0, 0);
-  border-radius: 4px;
-  font-size: 22 px;
+  background: black;
+  border-radius: 8px;
+  font-size: 20px;
   padding: 3px;
   color: rgb(255, 255, 255);
 }
@@ -131,6 +128,7 @@ body {
 .characters__caption {
   font-size: 16px;
   margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 /* CONTACT */
@@ -162,7 +160,7 @@ body {
   font-size: 18px;
 }
 
-.contact a::before {
+.contact a:before {
   content: "🅰️";
 }
 
@@ -179,7 +177,6 @@ footer {
   width: 100%;
   background-color: black;
   color: white;
-  padding: 4px;
 }
 
 footer p {
@@ -189,12 +186,4 @@ footer p {
 
 footer strong {
   color: red;
-}
-
-/* EXTRA */
-
-hr {
-  height: 4px;
-  background-color: black;
-  border: none;
 }
