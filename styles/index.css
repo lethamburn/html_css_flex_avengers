@@ -92,20 +92,6 @@ body {
   filter: saturate(60%)
 }
 
-.hero a {
-  text-decoration: none;
-  color: red;
-  font-size: 18px;
-}
-
-.hero a::before {
-  content: "🅰️";
-}
-
-.hero a:hover {
-  color: black;
-}
-
 /* CHARACTERS */
 
 .characters {
@@ -143,6 +129,43 @@ body {
 .characters__caption {
   font-size: 16px;
   margin-bottom: 20px;
+}
+
+/* CONTACT */
+
+.contact__container {
+  display: flex;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__intro {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.contact__caption {
+  font-size: 20px;
+  margin-bottom: 30px;
+  
+}
+.contact a {
+  text-decoration: none;
+  color: red;
+  font-size: 18px;
+}
+
+.contact a::before {
+  content: "🅰️";
+}
+
+.contact a:hover {
+  color: black;
 }
 
 /* FOOTER */
