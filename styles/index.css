@@ -28,6 +28,7 @@ body {
   font-size: 20px;
   text-align: center;
   padding: 15px;
+  text-transform: uppercase;
 }
 
 .navbar__item img {
@@ -69,6 +70,7 @@ body {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .hero__intro strong {
@@ -76,8 +78,7 @@ body {
 }
 
 .hero__caption {
-  font-size: 23px;
-  font-weight: lighter;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -87,13 +88,22 @@ body {
   margin-bottom: 10px;
 }
 
+.hero img:hover {
+  filter: saturate(60%)
+}
+
 .hero a {
   text-decoration: none;
   color: red;
+  font-size: 18px;
 }
 
-.hero a::before{
-  content: "🅰️"
+.hero a::before {
+  content: "🅰️";
+}
+
+.hero a:hover {
+  color: black;
 }
 
 /* CHARACTERS */
@@ -122,8 +132,8 @@ body {
   object-fit: contain;
 }
 
-.characters__title{
-  background: rgba(0, 0, 0, 0.692);
+.characters__title {
+  background: rgb(0, 0, 0);
   border-radius: 4px;
   font-size: 22 px;
   padding: 3px;
@@ -132,7 +142,6 @@ body {
 
 .characters__caption {
   font-size: 16px;
-  font-weight: lighter;
   margin-bottom: 20px;
 }
 
@@ -160,7 +169,7 @@ footer strong {
 /* EXTRA */
 
 hr {
-  height: 2px;
+  height: 4px;
   background-color: black;
   border: none;
 }
