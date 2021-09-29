@@ -87,6 +87,10 @@ body {
   color: red;
 }
 
+.hero a::before{
+  content: "🅰️"
+}
+
 /* CHARACTERS */
 
 .characters {
