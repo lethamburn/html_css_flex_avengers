@@ -89,7 +89,7 @@ body {
 }
 
 .hero img:hover {
-  filter: saturate(60%)
+  filter: saturate(60%);
 }
 
 /* CHARACTERS */
@@ -152,7 +152,6 @@ body {
 .contact__caption {
   font-size: 20px;
   margin-bottom: 30px;
-  
 }
 .contact a {
   text-decoration: none;
